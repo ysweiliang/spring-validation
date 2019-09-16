@@ -41,8 +41,8 @@ public class TestControllerTest {
         User param = new User();
         param.setName("");
         param.setAge(16);
-        param.setMobile("15251805961");
-        param.setEmail("15251805961@163.com");
+        param.setMobile("15251805999");
+        param.setEmail("15251805999@163.com");
         //调用接口，传入添加的用户参数
         RequestBuilder request = MockMvcRequestBuilders.post("/test")
                 .contentType(MediaType.APPLICATION_JSON_UTF8)
