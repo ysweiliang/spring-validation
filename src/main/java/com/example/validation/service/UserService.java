@@ -1,4 +1,4 @@
-package com.example.validation;
+package com.example.validation.service;
 
 import com.alibaba.fastjson.JSONObject;
 import com.example.validation.domain.User;
